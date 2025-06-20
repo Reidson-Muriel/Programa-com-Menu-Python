@@ -19,11 +19,13 @@ sudo apt update
 sudo apt install python3
 
 # 2. Clonar o repositório (se estiver no GitHub)
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+git clone https://github.com/Reidson-Muriel/Programa-com-Menu-Python.git
+cd Programa-com-Menu-Python
 
 # 3. Executar o programa
-python3 programa.py
+python3 programa_menu_while.py
+
+## 💻 Como executar no Termux
 
 # 1. Atualizar os pacotes e instalar Python + Git
 pkg update && pkg upgrade
@@ -31,11 +33,11 @@ pkg install python
 pkg install git
 
 # 2. Clonar o projeto do GitHub
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+git clone https://github.com/Reidson-Muriel/Programa-com-Menu-Python.git
+cd Programa-com-Menu-Python
 
 # 3. Rodar o programa
-python programa.py
+python3 programa_menu_while.py
 
 Como executar no Windows
 Baixe e instale o Python pelo site: https://python.org
